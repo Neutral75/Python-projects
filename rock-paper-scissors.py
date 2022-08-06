@@ -5,7 +5,7 @@ computer_wins = 0;
 
 options = ["rock", "paper", "scissors"];
 while True:
-    user_option = input("Choose Q to quit or either rock 🪨, paper 📰, or scissors ✂️: ").lower();
+    user_option = input("Choose Q to quit or either rock 🪨, paper 📰, or scissors ✂️ : ").lower();
     print("\n")
     if user_option == "q":
         break;

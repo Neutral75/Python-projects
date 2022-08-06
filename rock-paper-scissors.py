@@ -6,7 +6,6 @@ computer_wins = 0;
 options = ["rock", "paper", "scissors"];
 while True:
     user_option = input("Choose Q to quit or either rock 🪨, paper 📰, or scissors ✂️ : ").lower();
-    print("\n")
     if user_option == "q":
         break;
     
@@ -36,6 +35,8 @@ while True:
     else:
         print("You lost!");
         computer_wins += 1;
+
+    print("\n");
 
 print("You got" + " " + str(user_wins) + "!");
 print("The computer got" + " " + str(computer_wins) + "!");
